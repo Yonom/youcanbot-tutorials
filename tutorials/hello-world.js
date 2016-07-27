@@ -1,6 +1,6 @@
 var toolbox = '<xml>';
-toolbox += '<block type="actions_chat"></block>';
-toolbox += '<block type="text"></block>';
+toolbox += '    <block type="actions_chat"></block>';
+toolbox += '    <block type="text"></block>';
 toolbox += '</xml>';
 
 initTutorial({
