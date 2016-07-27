@@ -1,0 +1,3 @@
+initTutorialList([
+    'hello-world'
+]);
