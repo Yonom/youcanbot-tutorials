@@ -1,9 +1,11 @@
 var toolbox = '<xml>';
-toolbox += '<block type="controls_for"></block>';
-toolbox += '<block type="math_number"></block>';
-toolbox += '<block type="variables_get"></block>';
 toolbox += '<block type="actions_chat"></block>';
 toolbox += '<block type="text"></block>';
+toolbox += '<block type="controls_for"></block>';
+toolbox += '<block type="math_number"></block>';
+toolbox += '<block type="variables_get">';
+toolbox += '    <field name="VAR">i</field>';
+toolbox += '</block>';
 toolbox += '</xml>';
 
 initTutorial({
