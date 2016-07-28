@@ -281,6 +281,8 @@ toolbox += '        <block type="types_smiley"></block>';
 toolbox += '        <block type="types_smiley_id"></block>';
 toolbox += '    </category>';
 toolbox += '    <category name="Values" colour="0">';
+toolbox += '        <block type="values_get"></block>';
+toolbox += '        <block type="values_players"></block>';
 toolbox += '        <block type="values_userid"></block>';
 toolbox += '        <block type="values_username"></block>';
 toolbox += '        <block type="values_message"></block>';
