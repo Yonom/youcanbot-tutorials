@@ -280,13 +280,13 @@ toolbox += '    <category name="Types" colour="95">';
 toolbox += '        <block type="types_smiley"></block>';
 toolbox += '        <block type="types_smiley_id"></block>';
 toolbox += '    </category>';
-toolbox += '    <category name="Variables" colour="0">';
-toolbox += '        <block type="variables_username"></block>';
-toolbox += '        <block type="variables_smiley"></block>';
-toolbox += '        <block type="variables_message"></block>';
+toolbox += '    <category name="Values" colour="0">';
+toolbox += '        <block type="values_username"></block>';
+toolbox += '        <block type="values_smiley"></block>';
+toolbox += '        <block type="values_message"></block>';
 toolbox += '    </category>';
 toolbox += '    <sep></sep>';
-toolbox += '    <category name="Custom Variables" colour="330" custom="VARIABLE"></category>';
+toolbox += '    <category name="Variables" colour="330" custom="VARIABLE"></category>';
 toolbox += '    <category name="Functions" colour="290" custom="PROCEDURE"></category>';
 toolbox += '</xml>';
 
