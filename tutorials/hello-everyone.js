@@ -3,7 +3,7 @@ toolbox += '    <block type="events_join"></block>';
 toolbox += '    <block type="actions_chat"></block>';
 toolbox += '    <block type="text"></block>';
 toolbox += '    <block type="text_join"></block>';
-toolbox += '    <block type="variables_username"></block>';
+toolbox += '    <block type="values_username"></block>';
 toolbox += '</xml>';
 
 initTutorial({
