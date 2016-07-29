@@ -303,5 +303,6 @@ toolbox += '</xml>';
 initTutorial({
     title: 'The Sandbox',
     objective: 'In the sandbox you have access to every function without limitations.',
+    isSandbox: true,
     toolbox: toolbox
 });

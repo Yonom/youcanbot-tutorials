@@ -18,7 +18,6 @@ toolbox += '                <field name="NUM">1</field>';
 toolbox += '            </shadow>';
 toolbox += '        </value>';
 toolbox += '    </block>';
-toolbox += '    <block type="math_number"></block>';
 toolbox += '    <block type="variables_get">';
 toolbox += '        <field name="VAR">i</field>';
 toolbox += '    </block>';
