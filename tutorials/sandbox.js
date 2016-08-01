@@ -34,7 +34,7 @@ toolbox += '                    <field name="NUM">1</field>';
 toolbox += '                </shadow>';
 toolbox += '            </value>';
 toolbox += '        </block>';
-//toolbox += '        <block type="controls_forEach"></block>'; // broken
+toolbox += '        <block type="controls_forEach"></block>';
 toolbox += '        <block type="controls_flow_statements"></block>';
 toolbox += '    </category>';
 toolbox += '    <category name="Math" colour="230">';
@@ -379,7 +379,7 @@ toolbox += '    </category>';
 toolbox += '    <category name="Values" colour="0">';
 toolbox += '        <block type="values_key_pressed"></block>';
 toolbox += '        <block type="values_key"></block>';
-toolbox += '        <block type="values_get"></block>';
+toolbox += '        <block type="values_player_get"></block>';
 toolbox += '        <block type="values_players"></block>';
 toolbox += '        <block type="values_ownplayer"></block>';
 toolbox += '        <block type="values_crownplayer"></block>';
