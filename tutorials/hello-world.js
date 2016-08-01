@@ -16,6 +16,7 @@ toolbox += '</xml>';
 
 initTutorial({
     title: 'Hello world!',
-    objective: 'Make the bot say "Hello world" in chat.<br><br>Hint: Once you are ready, press the <b>PLAY</b> button above to run your program.',
+    objective: 'Make the bot say "Hello world" in chat.<br><br>' + 
+        '<div class="alert alert-info"><strong>Hint:</strong> Once you are ready, press the <b>PLAY</b> button above to run your program.</div>',
     toolbox: toolbox
 });
