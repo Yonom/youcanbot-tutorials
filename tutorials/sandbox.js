@@ -362,6 +362,7 @@ toolbox += '                </shadow>';
 toolbox += '            </value>';
 toolbox += '        </block>';
 toolbox += '        <block type="actions_timeout"></block>';
+toolbox += '        <block type="actions_interval"></block>';
 toolbox += '    </category>';
 toolbox += '    <category name="Types" colour="95">';
 toolbox += '        <block type="types_smiley"></block>';
