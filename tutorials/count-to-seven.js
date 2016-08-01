@@ -25,6 +25,7 @@ toolbox += '</xml>';
 
 initTutorial({
     title: 'One, two, three, ...',
-    objective: 'Count to 7 in chat.</br></br>Hint: Try to avoid repeating yourself when writing code, use the newly available pieces to your advantage.',
+    objective: 'Count to 7 in chat.' ,
+    hint: 'Hint: Try to use the newly available pieces to your advantage. If you don\'t understand how a puzzle piece works, right click on it and select "Help".',
     toolbox: toolbox
 });

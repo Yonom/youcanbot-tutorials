@@ -19,7 +19,7 @@ toolbox += '</xml>';
 
 initTutorial({
     title: 'Hello everyone!',
-    objective: 'Write a bot that says hello to everyone who joins the room.<br><br>' + 
-        '<div class="alert alert-info"><strong>Hint:</strong> You can join the room again by clicking on "Go to lobby" and then pressing "Rejoin?".</div>',
+    objective: 'Write a bot that says hello to everyone who joins the room.',
+    hint: 'You can join the room again by clicking on "Go to lobby" and then pressing "Rejoin?".',
     toolbox: toolbox
 });
