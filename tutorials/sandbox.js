@@ -381,6 +381,7 @@ toolbox += '        <block type="values_key_pressed"></block>';
 toolbox += '        <block type="values_key"></block>';
 toolbox += '        <block type="values_get"></block>';
 toolbox += '        <block type="values_players"></block>';
+toolbox += '        <block type="values_ownplayer"></block>';
 toolbox += '        <block type="values_crownplayer"></block>';
 toolbox += '        <block type="values_userid"></block>';
 toolbox += '        <block type="values_username"></block>';
