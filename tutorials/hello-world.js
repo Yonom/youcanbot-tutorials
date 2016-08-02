@@ -4,19 +4,13 @@ toolbox += '        <block type="text"></block>';
 toolbox += '    </category>';
 toolbox += '    <sep></sep>';
 toolbox += '    <category name="Actions" colour="20">';
-toolbox += '        <block type="actions_chat">';
-toolbox += '            <value name="TEXT">';
-toolbox += '                <shadow type="text">';
-toolbox += '                    <field name="TEXT">abc</field>';
-toolbox += '                </shadow>';
-toolbox += '            </value>';
-toolbox += '        </block>';
+toolbox += '        <block type="actions_chat"></block>';
 toolbox += '    </category>';
 toolbox += '</xml>';
 
 initTutorial({
     title: 'Hello world!',
-    objective: 'Make the bot say "Hello world" in chat.',
-    hint: 'Once you are ready, press the <b>PLAY</b> button above to run your program.',
+    objective: 'Make the bot say "Hello world" by connecting puzzle pieces. Once you are ready, press the <b>PLAY</b> button to run your program. ',
+    hint: 'Click on <strong>VIEW SOURCE</strong> to see the code that got generated.',
     toolbox: toolbox
 });

@@ -398,6 +398,7 @@ toolbox += '</xml>';
 initTutorial({
     title: 'The Sandbox',
     objective: 'In the sandbox you have access to every function without limitations.',
+    hint: 'YouCanBot is very limited and only designed to give you a taste of bot development. If you enjoy writing bots read <a href="https://github.com/Yonom/youcanbot-tutorials/wiki/Getting-Stated-with-Serious-Programming">this guide</a> to get started with serious programming tools. ',
     isSandbox: true,
     toolbox: toolbox
 });
