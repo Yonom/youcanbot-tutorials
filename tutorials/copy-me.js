@@ -12,9 +12,6 @@ toolbox += '        <block type="controls_forEach"></block>';
 toolbox += '    </category>';
 toolbox += '    <category name="Math" colour="230">';
 toolbox += '        <block type="math_number"></block>';
-toolbox += '        <block type="math_arithmetic"></block>';
-toolbox += '        <block type="math_number_property"></block>';
-toolbox += '        <block type="math_modulo"></block>';
 toolbox += '    </category>';
 toolbox += '    <category name="Text" colour="160">';
 toolbox += '        <block type="text"></block>';
@@ -31,7 +28,6 @@ toolbox += '    <category name="Actions" colour="20">';
 toolbox += '        <block type="actions_smiley"></block>';
 toolbox += '        <block type="actions_chat"></block>';
 toolbox += '        <block type="actions_move"></block>';
-toolbox += '        <block type="actions_block"></block>';
 toolbox += '    </category>';
 toolbox += '    <category name="Values" colour="0">';
 toolbox += '        <block type="values_player_get"></block>';
@@ -55,6 +51,6 @@ toolbox += '</xml>';
 initTutorial({
     title: 'Copy me',
     objective: 'When a player chats "!copyme", start mimicking them: If they change their smiley, copy their smiley. If they move, follow them.',
-    hint: 'You can share what you build with your friends using the <strong>SHARE</strong> button.',
+    hint: 'A variable can only be accessed if it has a value in the first place. You can use "on bot start" to give your variables starting values.',
     toolbox: toolbox
 });

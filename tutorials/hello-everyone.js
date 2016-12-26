@@ -17,7 +17,7 @@ toolbox += '</xml>';
 
 initTutorial({
     title: 'Hello everyone!',
-    objective: 'Write a bot that sends a private message to anyone who joins the room, welcoming them to the world.',
-    hint: 'You can rejoin the room by clicking on "Go to lobby" and then pressing "Rejoin?".',
+    objective: 'Write a bot that welcomes anyone who joins the room. You can rejoin the room by clicking on "Go to lobby" and then pressing "Rejoin?".',
+    hint: 'The value "username" is only available when connected to an "on player join" event!',
     toolbox: toolbox
 });

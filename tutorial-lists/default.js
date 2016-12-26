@@ -1,9 +1,10 @@
 initTutorialList([
     'hello-world',
-    'hello-everyone', 
-    'count-to-seven',
+    'hello-everyone',
     'hello-everyone-2',
-    'checker-block', 
+    'count-to-seven',
+    'hello-everyone-3',
     'copy-me',
-    'jump-builder', 
+    'jump-builder',    
+    'checker-block',
 ]);

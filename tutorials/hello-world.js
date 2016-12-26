@@ -10,7 +10,7 @@ toolbox += '</xml>';
 
 initTutorial({
     title: 'Hello world!',
-    objective: 'Make the bot say "Hello world" by connecting puzzle pieces. Once you are ready, press the <b>PLAY</b> button to run your program. ',
+    objective: 'Make a bot that says "Hello world". Connect puzzle pieces to "on bot run". Once you are ready, press <b>PLAY</b> to run your program.',
     hint: 'Click on <strong>VIEW SOURCE</strong> to see the code that got generated.',
     toolbox: toolbox
 });
