@@ -29,7 +29,7 @@ toolbox += '</xml>';
 
 initTutorial({
     title: 'Hello everyone 3!',
-    objective: 'Whops! It turns out that we left out players who were already in our room when the bot starts. Write a bot that sends a welcome PM to those people as well. You can run some code for every Player in the "players" List using the "foreach" puzzle piece. Use the new "get _ of player _" block to access the username of that player!',
+    objective: 'Whops! It turns out that we left out players who were already in our room before the bot was started. Write a bot that sends a welcome PM to everyone in the room. You can run the same code for every Player in the "players" List by using the "foreach" puzzle piece. Use the new "get _ of player _" block to access the username of that player!',
     hint: 'Can\'t keep up? Slow down the computer using the speed buttons or <strong>PAUSE</strong> and run your code <strong>STEP</strong> by step!',
     toolbox: toolbox
 });

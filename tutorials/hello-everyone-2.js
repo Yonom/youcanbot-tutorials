@@ -17,7 +17,7 @@ toolbox += '</xml>';
 
 initTutorial({
     title: 'Hello everyone 2!',
-    objective: 'Our players say our last bot is spaming the chat. Write a bot that welcomes anyone who joins the room, but this time, send them a <strong>private message</strong>',
+    objective: 'Our players said our last bot spams the chat. Write a bot that welcomes anyone who joins the room, but this time, send them a <strong>private message</strong>.',
     hint: 'The "create text with" tool has additional options that can be accessed by clicking on its cog.',
     toolbox: toolbox
 });
